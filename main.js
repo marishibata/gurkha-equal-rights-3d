@@ -349,8 +349,17 @@ addEventListener('resize', () => {
     0.1,
     1000
   )
-  camera.position.y = 0;
-  camera.position.z = 11;
+
+  gsap.to( camera.position, {
+    duration: 2,
+    x: 10,
+    y: 5,
+    z: 15,
+    onUpdate: function() {
+      camera.lookAt( sphere.position );
+    }
+  } );
+  
 })
 
 // touch screen for mobile
