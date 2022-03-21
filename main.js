@@ -27,7 +27,6 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
-// document.body.appendChild(renderer.domElement); // creates canvas even without the canvas html div
 
 /**
  * Sphere - main globe body
@@ -40,7 +39,7 @@ const sphere = new THREE.Mesh(
     fragmentShader,
     uniforms: {
       globeTexture: {
-        value: new THREE.TextureLoader().load('./img/maptexture.jpeg')
+        value: new THREE.TextureLoader().load('./maptexture.jpeg')
       }
     }
   })
@@ -123,11 +122,6 @@ function createGlobePoints(operations) {
   // look through each country in json array
   operations.forEach((operation) => {
 
-    // adjust size of point depending on population
-    // const scale = operation.population.
-    // const zScale = 0.8 * scale; // z index of globePoint box geometry scaled to size 
-    // instead of lat, lng it's saved as latlng array in json file - so need to reset variables to right data
-    // console.log(country.latlng)
     const lat = operation.lat
     const lng = operation.lng
 
