@@ -1,3 +1,5 @@
+"use strict";
+
 import './tailwind.css';
 import * as THREE from 'three';
 import gsap from 'gsap';
@@ -99,7 +101,6 @@ scene.add(stars);
 */
 
 // needs camera to add sphere to scene
-camera.position.x = 10;
 camera.position.y = 5;
 camera.position.z = 8;
 
