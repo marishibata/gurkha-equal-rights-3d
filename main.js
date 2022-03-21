@@ -99,7 +99,9 @@ scene.add(stars);
 */
 
 // needs camera to add sphere to scene
-camera.position.z = 11;
+camera.position.x = 10;
+camera.position.y = 5;
+camera.position.z = 8;
 
 // zoom camera position on load with GSAP 
 gsap.to( camera.position, {
@@ -346,7 +348,7 @@ addEventListener('resize', () => {
     0.1,
     1000
   )
-
+  camera.position.y = 0;
   camera.position.z = 11;
 })
 
