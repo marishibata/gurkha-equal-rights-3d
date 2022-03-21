@@ -1,0 +1,72 @@
+[
+    {
+        "year": "1846",
+        "name": "First Anglo-Sikh War",
+        "country": "India",
+        "lat": 30.8628625,
+        "lng": 74.7893
+    },
+    {
+        "year": "1857",
+        "name": "Siege of Delhi",
+        "country": "India",
+        "lat": 28.7041,
+        "lng": 77.1025
+    },
+    {
+        "year": "1878 - 1880",
+        "name": "Second Anglo-Afghan War",
+        "country": "Afghanistan",
+        "lat": 31.6289,
+        "lng": 65.7372
+    },
+    {
+        "year": "1919",
+        "name": "Third Anglo-Afghan War",
+        "country": "Afghanistan",
+        "lat": 34.9526,
+        "lng": 72.3311
+    },
+    {
+        "year": "1941",
+        "name": "Anglo-Iraqi War",
+        "country": "Iraq",
+        "lat": 33.3152,
+        "lng": 44.3661
+    },
+    {
+        "year": "1944",
+        "name": "Battle of Imphal",
+        "country": "India",
+        "lat": 24.8170,
+        "lng": 93.9368
+    },
+    {
+        "year": "1944",
+        "name": "Italy Campaign",
+        "country": "Italy",
+        "lat": 43.9424,
+        "long": 12.4578
+    },
+    {
+        "year": "1962 - 1966",
+        "name": "Brunei Revolt",
+        "country": "Brunei",
+        "lat": 5.9788,
+        "lng": 116.0753
+    },
+    {
+        "year": "1982",
+        "operation": "The Falklands",
+        "name": "Argentina",
+        "lat": -51.7963,
+        "lng": -59.5236
+    },
+    {
+        "year": "1999",
+        "name": "Kosovan War",
+        "country": "Kosovo",
+        "lat": 42.2279,
+        "lng": 21.2569
+    }
+]

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gurkha Equal Rights</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    body {
+      margin: 0;
+      -webkit-font-smoothing: anatialised;
+    }
+
+    a {
+      color: pink;
+    }
+
+    .font-exo {
+      font-family: 'Exo 2', sans-serif;
+    }
+
+    .font-inconsolata {
+      font-family: 'Inconsolata', monospace;
+    }
+
+    .font-orbitron {
+      font-family: 'Orbitron', sans-serif;
+    }
+
+
+.fa {
+  padding: px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: transparent;
+  margin-right: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+  </style>
+</head>
+
+<body>
+  <div id="popupLabel" class="bg-black bg-opacity-75 fixed px-3 py-2 rounded-lg">
+    <h2 class="text-white text-xs">
+      <span id="yearEl"></span>
+      
+    </h2>
+    <p id="nameEl" class="text-white font-bold text-lg"></p>
+  </div>
+  <div class="xl:flex h-screen bg-black">
+    <div class="xl:w-1/2 flex flex-col justify-center px-8 pt-16 xl:pt-0">
+      <div style="max-width:500px;" class="mx-auto">
+        <h1 class="text-white italic text-2xl mb-8 font-orbitron">Coming soon...a history of Gurkha injustices</h1>
+        <p class="text-gray-400 mb-8 font-inconsolata">
+          Over 46,000 Nepalese Gurkha soldiers have died in the 200 years fighting as members of the British Army - yet they still don't have access to the same rights as British soldiers.
+        </p>
+        <p class="text-gray-400 mb-8 font-inconsolata">
+          Our campaign for equal military pension rates has been reported by
+          <a href="https://www.theguardian.com/uk-news/2022/jan/15/dangerous-new-uk-policing-bill-would-crush-protests-like-ours-gurkhas-warn">The Guardian</a>, 
+          <a href="https://www.bbc.co.uk/news/uk-england-hampshire-58274264">BBC News</a> and others, with the 
+          <a href="https://commonslibrary.parliament.uk/research-briefings/sn04375/">UK Government agreeing to talks</a> following coverage. 
+        </p>
+        <p class="text-gray-400 mb-6 font-inconsolata">
+          Drag and hover over the globe to see where the Gurkhas have fought. The rest of this website is currently under construction - please follow our social media for updates. 
+        </p>
+        <div>
+          <a 
+          href="https://twitter.com/gurkha_rights" 
+          class="fa fa-twitter" 
+          target="_blank"
+          rel="noreferrer"></a>
+
+          <a 
+          href="https://www.instagram.com/gurkhaequalrights/" 
+          class="fa fa-instagram"
+          target="_blank"
+          rel="noreferrer"
+          ></a>
+
+          <a 
+          href="https://www.facebook.com/gurkhaequalrights/" 
+          class="fa fa-facebook"
+          target="_blank"
+          rel="noreferrer"
+          ></a>
+        </div>
+        <div class="text-gray-400 mb-8 mt-6 font-inconsolata">
+          Enquiries: gurkhaequalrights@gmail.com
+        </div>
+        <div>
+          <a 
+          href="https://linktr.ee/gurkhaequalrights" 
+          class="text-white bg-blue-500 inline-block px-6 py-2 rounded-full font-inconsolata"
+          target="_blank"
+          rel="noreferrer">View Latest News</a>
+        </div>
+      </div>
+    </div>
+    <div class="h-screen xl:w-1/2" id="canvasContainer">
+      <canvas></canvas>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
